@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cactusforce2020</fullName>
+    <types>
+        <members>SalesBonusService</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Opportunity.Tenure_Based_Bonus__c</members>
+        <members>Opportunity.X1000_Kicker_for_Large_Opps__c</members>
+        <members>Opportunity.X500_Flat_Bonus__c</members>
+        <members>Sales_Bonus_Rule__mdt.Active__c</members>
+        <members>Sales_Bonus_Rule__mdt.Amount_Field__c</members>
+        <members>Sales_Bonus_Rule__mdt.Date_Field__c</members>
+        <members>Sales_Bonus_Rule__mdt.Description__c</members>
+        <members>Sales_Bonus_Rule__mdt.End_Date__c</members>
+        <members>Sales_Bonus_Rule__mdt.Object__c</members>
+        <members>Sales_Bonus_Rule__mdt.Start_Date__c</members>
+        <members>Sales_Bonus_Rule__mdt.User__c</members>
+        <members>Sales_Bonus__c.Amount__c</members>
+        <members>Sales_Bonus__c.Description__c</members>
+        <members>Sales_Bonus__c.Effective_Date__c</members>
+        <members>Sales_Bonus__c.Opportunity__c</members>
+        <members>Sales_Bonus__c.Unique_Key__c</members>
+        <members>Sales_Bonus__c.User__c</members>
+        <members>User.Start_Date__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Sales_Bonus_Rule.Tenure_Based_Bonus</members>
+        <members>Sales_Bonus_Rule.X1000_Kicker_for_Large_Opps</members>
+        <members>Sales_Bonus_Rule.X500_Flat_Bonus</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Sales_Bonus_Rule__mdt</members>
+        <members>Sales_Bonus__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Sales_Bonus_Rule__mdt-Sales Bonus Rule Layout</members>
+        <members>Sales_Bonus__c-Sales Bonus Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Sales_Bonus__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Sales_Bonus_Rule__mdt.Object_Must_Be_Opportunity</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>42.0</version>
+</Package>
